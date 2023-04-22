@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 //String selectedItem = (String) adapterView.getItemAtPosition(position);
                 Log.d("position", "position"+position);
-                //itemSelect.setText(position);
                 itemSelect.setText("Best Country : "+ countryList[position]);
 
 
